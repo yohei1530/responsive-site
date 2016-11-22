@@ -1,0 +1,90 @@
+.html {
+  positon: relative;
+  min-height: 100%;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  }
+
+ .Destination{
+   margin: 20px auto;
+ }
+ .text-center{
+  text-align: center ;
+  font-size: 32px;
+  
+ }
+.box {
+  background-image: url("./images/PP_tobitatuhikouki_TP_V.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+ }
+
+
+
+.box1 {
+  border: solid 1px skyblue;
+  width:90%;
+  margin: 10px auto;
+  flex: 1;
+}
+.boxWrap{
+  text-align: center;
+} 
+.box2 {
+  text-align: center;
+  width:27%;
+  margin: 1%;
+  padding: 10px;
+  border: solid 1px #0099CC;
+  background: #0099FF;
+  
+  }
+
+.box2 {
+  display: inline-block;
+  }
+  
+
+.box3 {
+  background-image: url("./images/ISHI84_higepen_TP_V.jpg");
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; 
+  
+  
+}
+.footer {
+  font-size: 26px;
+  text-align: center; 
+  
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  font-size: 10px;
+  display: block;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: 1px solid #DDD;
+  color: black;
+  width:90px;
+  padding: 10px 0;
+  border: groove 1em white;
+   border-radius: 2em;
+}
+
+@media (max-width: 768px){
+  .container {
+    flex-direction: column;}
+  .box { height: 250px;}
+  .box2 {width: 90%;}
+  .box3 { height: 250px;}
+ }
+
+
+ 
