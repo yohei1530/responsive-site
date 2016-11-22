@@ -34,7 +34,7 @@
 } 
 .box2 {
   text-align: center;
-  width:27%;
+  width:26%;
   margin: 1%;
   padding: 10px;
   border: solid 1px #0099CC;
@@ -75,7 +75,7 @@
   width:90px;
   padding: 10px 0;
   border: groove 1em white;
-   border-radius: 2em;
+  border-radius: 2em;
 }
 
 @media (max-width: 768px){
